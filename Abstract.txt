@@ -1,0 +1,19 @@
+Navigation is an approach which primarily concentrates on the process of tracking and directing the movement of person or vehicle from one place to another.
+The purpose of navigation is to locate the present position and to determine the speed, direction etc. and to arrive at the point of destination.
+College campus is a huge infrastructure and it consists of many departments and blocks.
+Therefore, it is very difficult to find the location of the desired destination given by the user.
+The existing systems for navigation use Global Positioning System (GPS) for locating different places.
+However, in the absence of GPS connectivity it would be difficult for navigation.
+
+
+This project aims at designing and developing a campus navigator system which can work even in the absence of GPS connectivity. 
+The system will have the hand-held device which automatically locates the user location and updates it to the user. 
+Based on the destination inputs given by the user,
+the system determines the shortest path to the desired destination of the user.
+
+
+The device consists of Arduino, which controls the entire system.
+It includes Radio Frequency (RF) transmitter and receiver module.
+The RF transmitter module transmits the location information of different blocks to the receiver module. 
+The information transmitted is decoded and analyzed in Arduino and displayed over liquid-crystal display (LCD). 
+The device also displays the instructions to the user to reach the destination.
